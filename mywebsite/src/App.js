@@ -1,8 +1,8 @@
 
 import './App.css';
-import Contact from './Contact';
-import Home from './Home';
-import Projects from './Projects';
+import Contact from './Routes/Contact';
+import Home from './Routes/Home';
+import Projects from './Routes/Projects';
 
 function App() {
   return  <div className="App">
