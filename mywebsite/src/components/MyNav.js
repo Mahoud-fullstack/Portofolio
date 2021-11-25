@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../images/logo.png";
+import Container from "react-bootstrap/Container";
 export default function MyNav() {
     return (
+      <Container fluid>
       <Navbar className="border-bottom" bg="dark" variant="dark" expand="lg">
         <Navbar.Brand>
           <img
@@ -40,5 +42,6 @@ export default function MyNav() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    </Container>
   );
 }
